@@ -230,9 +230,9 @@ const iconLinks: { label: string; href: string; icon: keyof typeof iconPaths }[]
 		text-decoration: none;
 	}
 
-	.link.active {
-		color: var(--gray-0);
-	}
+	//.link.active {
+	//	color: var(--gray-0);
+	//}
 
 	.menu-footer {
 		--icon-size: var(--text-xl);
@@ -329,8 +329,11 @@ const iconLinks: { label: string; href: string; icon: keyof typeof iconPaths }[]
 		}
 
 		.link.active {
-			color: var(--accent-text-over);
-			background-color: var(--accent-regular);
+			padding: 0.5rem 1rem;
+			border-radius: 999rem;
+			transition:
+				color var(--theme-transition),
+				background-color var(--theme-transition);
 		}
 
 		.menu-footer {
