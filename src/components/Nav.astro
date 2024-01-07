@@ -19,7 +19,7 @@ const iconLinks: { label: string; href: string; icon: keyof typeof iconPaths }[]
 
 <nav>
 	<div class="menu-header">
-		<a href="/portfolio" class="site-title">
+		<a href="/portfolio/" class="site-title">
 			<Icon icon="terminal-window" color="var(--accent-regular)" size="1.6em" gradient />
 			Léo Denis
 		</a>
@@ -37,18 +37,17 @@ const iconLinks: { label: string; href: string; icon: keyof typeof iconPaths }[]
 			{
 				textLinks.map(({ label, href }) => (
 					<li>
-						<a
-							aria-current={Astro.url.pathname === href}
-							class:list={[
-								'link',
-								{
-									active:
-										Astro.url.pathname === href ||
-										(href !== '/portfolio/' && Astro.url.pathname.startsWith(href)),
-								},
-							]}
-							href={href}
-						>
+						<a href={href}>
+							<!--aria-current={Astro.url.pathname === href}-->
+							<!--class:list={[-->
+							<!--	'link',-->
+							<!--	{-->
+							<!--		active:-->
+							<!--			Astro.url.pathname === href ||-->
+							<!--			(href !== '/portfolio/' && Astro.url.pathname.startsWith(href)),-->
+							<!--	},-->
+							<!--]}-->
+
 							{label}
 						</a>
 					</li>
