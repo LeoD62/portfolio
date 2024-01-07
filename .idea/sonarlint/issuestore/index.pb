@@ -1,6 +1,4 @@
 
-9
-	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
 B
 public/favicon.svg,5\f\5f2454f9d281fd54d8c45aa67bd4c92c65574e1f
 <
@@ -70,3 +68,5 @@ L
 .github/workflows/deploy.yml,f\1\f130ad0d1d16d0d70ec30d355f736ae3784b05cf
 Q
 !src/content/work/banque-images.md,d\2\d2b7c2ddf5a75448a3cd185c6a155c42bf212473
+O
+src/content/work/ray-tracing.md,9\e\9e2bf65100bfa2a7f27445017f545d86669105ad
