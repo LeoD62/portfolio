@@ -11,4 +11,4 @@ tags:
   - Astro
 ---
 
-Création de ce portfolio à l'aide du framework Astro. Je l'ai adapté pour qu'il me convienne et ajouté mes différents projets.
+Création de ce portfolio à l'aide du framework Astro. Je l'ai adapté pour qu'il me convienne et ajouté mes différents projets. Je l'ai ensuite déployé à l'aide de GitHub.
