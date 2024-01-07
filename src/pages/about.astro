@@ -1,0 +1,140 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+import ContactCTA from '../components/ContactCTA.astro';
+import Hero from '../components/Hero.astro';
+---
+
+<BaseLayout title="À propos | Léo Denis" description="À propos de Léo Denis">
+	<div class="stack gap-20">
+		<main class="wrapper about">
+			<Hero
+				title="À propos"
+			>
+				<img
+					width="5472"
+					height="3648"
+					src="/assets/iut.jpg"
+					alt="L'IUT de Lens"
+				/>
+			</Hero>
+
+			<section>
+				<h2 class="section-title">Mon parcours</h2>
+				<div class="content">
+					<p>
+						Le goût du développement est apparu chez moi lors des cours de technologie au collège. Bien que
+						ce n'était rien de vraiment poussé (Scratch), mon goût pour l'algorithmique s'est développé
+						durant cette période. C'est donc logiquement que j'ai effectué mon stage d'observation de
+						troisième au sein d'une ESN dans laquelle j'ai découvert les langages HTML et CSS.
+					</p>
+					<p>
+						Au lycée, j'ai suivi un baccalauréat général avec les spécialités Mathématiques, NSI (Numérique
+						et Sciences Informatiques) et physique-chimie. J'ai arrêté cette dernière à la fin de la
+						terminale car les deux autres étaient trop importantes pour que je les arrête. En effet, la NSI
+						et les mathématiques me permettaient de développer mon algorithmie. J'ai obtenu mon bacalauréat
+						avec mention très bien en 2022.
+					</p>
+					<p>
+						Je suis aujourd'hui en deuxième année de BUT informatique à Lens. J'ai préféré cette formation
+						plutôt qu'une autre car elle me permet de continuer de développer mes compétences tout en
+						suivant une formation dans laquelle la pratique est plus présente que la théorique, ce qui
+						correspond plus à ma façon d'apprendre.
+					</p>
+				</div>
+			</section>
+			<section>
+				<h2 class="section-title">Formation</h2>
+				<div class="content">
+					<ul>
+						<li>
+							<p><strong>BUT informatique</strong> <i>2022-2025</i></p>
+							<p><a href="http://www.iut-lens.univ-artois.fr">IUT de Lens</a></p>
+							<p>Diplôme en cours d'obtention</p>
+						</li>
+						<li>
+							<p><strong>Baccalauréat général</strong> <i>2022</i></p>
+							<p>Lycée Anatole France, Lillers</p>
+							<p>Mention très bien, spécialités physique-chimie (arrêtée en première), mathématiques et
+								NSI, option italien LV3</p>
+						</li>
+					</ul>
+				</div>
+			</section>
+			<section>
+				<h2 class="section-title">Compétences</h2>
+				<div class="content">
+					<ul>
+						<li><p>Python</p></li>
+						<li><p>Java</p></li>
+						<li><p>HTML / CSS</p></li>
+						<li><p>SQL</p></li>
+						<li><p>PHP</p></li>
+						<li><p>Laravel</p></li>
+						<li><p>Bash</p></li>
+					</ul>
+				</div>
+			</section>
+		</main>
+
+		<ContactCTA />
+	</div>
+</BaseLayout>
+
+<style>
+	.about {
+		display: flex;
+		flex-direction: column;
+		gap: 3.5rem;
+	}
+
+	img {
+		margin-top: 1.5rem;
+		border-radius: 1.5rem;
+		box-shadow: var(--shadow-md);
+	}
+
+	section {
+		display: flex;
+		flex-direction: column;
+		gap: 0.5rem;
+		color: var(--gray-200);
+	}
+
+	.section-title {
+		grid-column-start: 1;
+		font-size: var(--text-xl);
+		color: var(--gray-0);
+	}
+
+	.content {
+		grid-column: 2 / 4;
+	}
+
+	.content :global(a) {
+		text-decoration: 1px solid underline transparent;
+		text-underline-offset: 0.25em;
+		transition: text-decoration-color var(--theme-transition);
+	}
+
+	.content :global(a:hover),
+	.content :global(a:focus) {
+		text-decoration-color: currentColor;
+	}
+
+	@media (min-width: 50em) {
+		.about {
+			display: grid;
+			grid-template-columns: 1fr 60% 1fr;
+		}
+
+		.about > :global(:first-child) {
+			grid-column-start: 2;
+		}
+
+		section {
+			display: contents;
+			font-size: var(--text-lg);
+		}
+	}
+</style>
