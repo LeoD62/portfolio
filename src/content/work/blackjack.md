@@ -1,7 +1,7 @@
 ---
 title: Blackjack en Python
 publishDate: 2021-12-15 00:00:00
-img: /assets/blackjack.jpg
+img: /portfolio/assets/blackjack.jpg
 img_alt: Table de jeu de blackjack
 description: |
   Création en groupe de 2 d'un jeu de Blackjack en Python

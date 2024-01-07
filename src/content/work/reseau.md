@@ -1,7 +1,7 @@
 ---
 title: Mise en place d'un réseau
 publishDate: 2023-06-16 00:00:00
-img: /assets/routage.svg
+img: /portfolio/assets/routage.svg
 img_alt: Image d'exemple de réseau
 description: |
   Mise en place d'un réseau pour une entreprise fictive, qui était elle-même connectée à d'autres réseaux d'entreprises.

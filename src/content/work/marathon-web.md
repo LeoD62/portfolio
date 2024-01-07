@@ -1,7 +1,7 @@
 ---
 title: Marathon du web
 publishDate: 2023-12-21 00:00:00
-img: /assets/marathon.png
+img: /portfolio/assets/marathon.png
 img_alt: La page obtenue à la fin du projet
 description: |
   En groupe de 8 (4 étudiands en informatique, 4 en MMI), nous avons créé une application web permettant de lire et de mettre en ligne des histoires intéractives en 33h.

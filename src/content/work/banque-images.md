@@ -1,7 +1,7 @@
 ---
 title: Application web banque d'images
 publishDate: 2023-12-19 00:00:00
-img: /assets/banque-image.png
+img: /portfolio/assets/banque-image.png
 img_alt: Image d'exemple de réseau
 description: |
   Création d'une application web permmettant de visualiser, ajouter, commenter et noter une scène (image) en groupe de 4.

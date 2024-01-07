@@ -1,7 +1,7 @@
 ---
 title: Flatcraft
 publishDate: 2023-12-15 00:00:00
-img: /assets/flatcraft.png
+img: /portfolio/assets/flatcraft.png
 img_alt: Aperçu du jeu
 description: |
   Création d'un jeu en 2D reprennant le principe de Minecraft en groupe de 4.

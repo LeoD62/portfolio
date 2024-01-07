@@ -1,7 +1,7 @@
 ---
 title: Jeu de dés
 publishDate: 2021-12-19 00:00:00
-img: /assets/des.jpg
+img: /portfolio/assets/des.jpg
 img_alt: Deux dés
 description: |
   Création en groupe de 2 d'un jeu de dés en orienté objet Python avec une interface graphique.
