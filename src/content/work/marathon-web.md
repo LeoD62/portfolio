@@ -17,4 +17,4 @@ Nous étions en groupe de 8 (4 étudiants en BUT informatique, 4 en BUT MMI (Mé
 
 Nous avons eu de la chance car nous nous sommes directement bien entendu avec les étudiants en MMI. Nous avons donc directement commencé a travailler en coopération.
 
-Personnellement, je me suis principalement occupé du controlleur permettant de récupérer toutes les histoires ainsi que la page permettant d'afficher un chapitre, mais c'est la phase de débuggage qui a pris le plus de temps. Ce projet m'a notamment appris à travailler avec des personnes que je ne connaissais pas avant le début du projet, ce qui ne m'était alors jamais arrivé.
+Personnellement, je me suis principalement occupé du contrôleur permettant de récupérer toutes les histoires ainsi que la page permettant d'afficher un chapitre, mais c'est la phase de débuggage qui a pris le plus de temps. Ce projet m'a notamment appris à travailler avec des personnes que je ne connaissais pas avant le début du projet, ce qui ne m'était alors jamais arrivé.
